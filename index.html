@@ -16,10 +16,38 @@
       width: 100%;
       max-width: 100%;
     }
-    @media (min-width: 720px) {
-      .container {
-        width: 50%;
-        min-width: 480px;
+    @media (max-width: 767px) {
+      nav {
+        flex-direction: column;
+        gap: 1em;
+      }
+
+      .section {
+        padding: 2em 1em;
+      }
+
+      .section h1, .section h2 {
+        font-size: 1.2em;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1em;
+      }
+
+      input, textarea, button {
+        width: 90%;
+        font-size: 1em;
+      }
+
+      .order-button {
+        width: 90%;
+        font-size: 1em;
+      }
+
+      header {
+        padding: 0.5em;
       }
     }
     header {
